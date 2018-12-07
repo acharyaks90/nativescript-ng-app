@@ -1,0 +1,21 @@
+<!-- <Button text="login works!" (tap)="navTo()" class="btn btn-primary"></Button> -->
+
+<ActionBar title="Bottom Sheet!" class="action-bar">
+</ActionBar>
+
+<GridLayout rows="*, *">
+
+    <!-- End of your Page Layout -->
+    <Button class="btn btn-primary" text="Open Bottom Sheet" (tap)="openSheet() "></Button>
+    <Button  class="btn btn-primary" text="Close Bottom Sheet" (tap)="closeSheet()"></Button>
+
+    <StackLayout row="1" #botttomSheet id="bottomSheet" class="m-r-20 m-l-20" backgroundColor="white" 
+        
+        verticalAlignment="bottom" >
+        <Label text="Enter Your Quantity"></Label>
+      
+        <TextField text="Plz enter" hint="Enter text..." ></TextField>
+       
+    </StackLayout>
+
+</GridLayout>

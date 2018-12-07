@@ -1,6 +1,6 @@
 {
   "nativescript": {
-    "id": "org.nativescript.ipriksha",
+    "id": "org.nativescript.ntngsample",
     "tns-android": {
       "version": "5.0.0"
     },
